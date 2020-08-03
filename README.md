@@ -28,4 +28,3 @@
 - FILE: sqlite.db = flat file storage document
 - FILE: crud_sqlite.js = scripts to Create, Read, Update and Delete a SQLite database
 
-# crud-examples
