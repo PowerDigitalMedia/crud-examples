@@ -4,7 +4,7 @@
 
 ## Description
 
-NodeJS Create, Read, Update, and Delete for a variety of databases.
+Create, Read, Update and Delete for a variety of databases using NodeJS.
 
 
 
