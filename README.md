@@ -2,29 +2,30 @@
 # CRUD Examples
 
 
-### `( FOLDER: dynamodb )`
+## Description
 
-- FILE: crud_dynamodb.js = scripts to Create, Read, Update and Delete a DynamoDB database table
-
-<br/>
+NodeJS Create, Read, Update, and Delete for a variety of databases.
 
 
-### `( FOLDER: mysql )`
 
-- FILE: db_connect.js = script to connect to a MySql database 
-- FILE: crud_mysql.js = scripts to Create, Read, Update and Delete a MySql database
+#### `( FOLDER: dynamodb )`
 
-<br/>
+* FILE: crud_dynamodb.js = scripts to Create, Read, Update and Delete a DynamoDB database table
 
 
-### `( FOLDER: redis )`
+#### `( FOLDER: mysql )`
 
-- FILE: crud_redis.js = scripts to Create, Read, Update and Delete a Redis Storage
+* FILE: db_connect.js = script to connect to a MySql database 
+* FILE: crud_mysql.js = scripts to Create, Read, Update and Delete a MySql database
 
-<br/>
 
-### `( FOLDER: sqlite )`
+#### `( FOLDER: redis )`
 
-- FILE: sqlite.db = flat file storage document
-- FILE: crud_sqlite.js = scripts to Create, Read, Update and Delete a SQLite database
+* FILE: crud_redis.js = scripts to Create, Read, Update and Delete a Redis Storage
+
+
+#### `( FOLDER: sqlite )`
+
+* FILE: sqlite.db = flat file storage document
+* FILE: crud_sqlite.js = scripts to Create, Read, Update and Delete a SQLite database
 
