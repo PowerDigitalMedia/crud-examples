@@ -1,17 +1,9 @@
 require('dotenv').config();
-
-//##########################################################
-//NODE_MODULES
-
 const async = require('async');
 const fs = require('fs');
 const path = require('path');
 const nodedir = require('node-dir');
 
-
-
-//##########################################################
-//AWS
 
 const AWS = require('aws-sdk');
 const { DH_CHECK_P_NOT_SAFE_PRIME, SSL_OP_NO_SESSION_RESUMPTION_ON_RENEGOTIATION } = require('constants');
@@ -26,20 +18,6 @@ const s3 = new AWS.S3()
 const dynamodb = new AWS.DynamoDB({region:process.env.DYNAMODB_REGION});
 const docClient = new AWS.DynamoDB.DocumentClient({region:process.env.DYNAMODB_REGION});
 
-
-
-
-
-
-
-
-
-
-
-//#######################################################################################
-//#######################################################################################
-//#######################################################################################
-//MODEX
 
 module.exports=function(app)
 {
@@ -808,17 +786,10 @@ module.exports=function(app)
 				//==========================================================
 
 				function (err, result) {
-				
-		
-
+			
 					var sof = "SUCCESS";
 					if(result['error']) var sof = "FAILED";
 
-
-					//========================================================
-					//send
-					//========================================================
-				
 					var R = {
 			
 						'sof':sof,
@@ -826,8 +797,6 @@ module.exports=function(app)
 					};
 					res.send(R);
 				
-
-		
 				}
 
 
