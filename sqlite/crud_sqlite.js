@@ -1,7 +1,6 @@
 var async = require('async');
 var sqlite3 = require('sqlite3').verbose();
 
-// THIS IS AN UPDATE
 
 module.exports=function(app)
 {
